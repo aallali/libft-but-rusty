@@ -1,6 +1,5 @@
 <img src="https://user-images.githubusercontent.com/8974888/231858967-7c37bf1e-335b-4f5a-9760-da97be9f54bb.png" width="200" />
 
----
 # Libft But Rusty
 
 ### A Reimplementation of 42's Common Core Libft in Rust, to learn Rust
