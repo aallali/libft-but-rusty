@@ -10,6 +10,7 @@ I tried to follow the same limitations that the libft project gives us, such as 
 
 
 ### functions:
+_`(click on func name to view source code`)_
 ### part 1:
 - [ ] `ft_strequ`
 - [ ] `ft_strnequ`
@@ -18,11 +19,11 @@ I tried to follow the same limitations that the libft project gives us, such as 
 - [ ] `ft_strtrim`
 - [ ] `ft_strsplit`
 - [ ] `ft_itoa`
-- [x] `ft_putchar`
-- [x] `ft_putstr`
+- [x] [`ft_putchar`](./src/libft/ft_putchar.rs)
+- [x] [`ft_putstr`](./src/libft/ft_putstr.rs)
 - [ ] `ft_putendl`
 - [ ] `ft_putnbr`
-- [x] `ft_putchar_fd` 
+- [x] [`ft_putchar_fd`](./src/libft/ft_putchar_fd.rs)
 - [ ] ➡️ `ft_putstr_fd`
 - [ ] `ft_putendl_fd`
 - [ ] `ft_putnbr_fd`
