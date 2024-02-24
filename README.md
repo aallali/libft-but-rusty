@@ -11,7 +11,11 @@ I tried to follow the same limitations that the 'libft' subject gives us, such a
 
 ### functions:
 Note: _`(click on func name to view source code`)_
-Note: (🧪): _means unit tests are written for the function_
+Note: (`🧪`): _means unit tests are written for the function_
+Note: _`(click on 🧪 to view unit tests`)_
+Note: (`⏳`): _means function under progress_
+
+
 ### part 1:
 - [ ] `ft_strequ`
 - [ ] `ft_strnequ`
@@ -24,7 +28,7 @@ Note: (🧪): _means unit tests are written for the function_
 - [x] [`ft_putstr`](./src/libft/ft_putstr.rs)
 - [ ] `ft_putendl`
 - [ ] `ft_putnbr`
-- [x] [`ft_putchar_fd`](./src/libft/ft_putchar_fd.rs) 🧪
+- [x] [`ft_putchar_fd`](./src/libft/ft_putchar_fd.rs) [🧪](./src/tests/ft_putchar_fd_test.rs)
 - [ ] ⏳`ft_putstr_fd`
 - [ ] `ft_putendl_fd`
 - [ ] `ft_putnbr_fd`
