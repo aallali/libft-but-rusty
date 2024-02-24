@@ -2,15 +2,16 @@
 
 # Libft But Rusty
 
-### A Reimplementation of 42's Common Core Libft in Rust, to learn Rust
+### A Reimplementation of 42's Common Core _Libft_ in Rust, to learn Rust
 
 re-implementing a set of Libc functions + some others to rust
 
-I tried to follow the same limitations that the libft project gives us, such as limiting memory allocation in fuctions that don't use it in the libc. However I folowed the originial limitations of the project and their c implementations loosly.
+I tried to follow the same limitations that the 'libft' subject gives us, such as limiting memory allocation in fuctions that don't use it in the libc. However I folowed the originial limitations of the project and their c implementations loosly.
 
 
 ### functions:
-_`(click on func name to view source code`)_
+Note: _`(click on func name to view source code`)_
+Note: (🧪): _means unit tests are written for the function_
 ### part 1:
 - [ ] `ft_strequ`
 - [ ] `ft_strnequ`
@@ -23,8 +24,8 @@ _`(click on func name to view source code`)_
 - [x] [`ft_putstr`](./src/libft/ft_putstr.rs)
 - [ ] `ft_putendl`
 - [ ] `ft_putnbr`
-- [x] [`ft_putchar_fd`](./src/libft/ft_putchar_fd.rs)
-- [ ] ➡️ `ft_putstr_fd`
+- [x] [`ft_putchar_fd`](./src/libft/ft_putchar_fd.rs) 🧪
+- [ ] ⏳`ft_putstr_fd`
 - [ ] `ft_putendl_fd`
 - [ ] `ft_putnbr_fd`
 ### part 2:
@@ -63,3 +64,4 @@ _`(click on func name to view source code`)_
 - [ ] `ft_lstadd`
 - [ ] `ft_lstiter`
 - [ ] `ft_lstmap`
+
