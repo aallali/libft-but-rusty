@@ -11,8 +11,11 @@ I tried to follow the same limitations that the 'libft' subject gives us, such a
 
 ### functions:
 Note: _`(click on func name to view source code`)_
+
 Note: (`🧪`): _means unit tests are written for the function_
+
 Note: _`(click on 🧪 to view unit tests`)_
+
 Note: (`⏳`): _means function under progress_
 
 
