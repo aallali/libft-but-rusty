@@ -42,7 +42,7 @@ fn use_ft_putchar_fd(file_name: &str, char_test: char) -> io::Result<char> {
 fn test_putchar_fd() {
     let input_test: char = '+';
     let expected_content: char = '+'; // Replace with the expected content of the file
-    let file_name: &str = "output_test.txt";
+    let file_name: &str = "./src/tests/output_test.txt";
     // Call the function to read the file content
     match use_ft_putchar_fd(file_name, input_test) {
         Ok(first_char) => {
