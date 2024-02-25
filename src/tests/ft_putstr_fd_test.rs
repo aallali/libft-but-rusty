@@ -56,4 +56,5 @@ fn test_putstr_fd() {
             panic!("Error reading file: {:?}", e);
         }
     }
+    let _ = fs::remove_file(file_name);
 }
