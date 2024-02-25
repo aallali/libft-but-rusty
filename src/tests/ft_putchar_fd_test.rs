@@ -1,8 +1,6 @@
-#[path = "../libft/ft_putchar_fd.rs"]
-mod ft_putchar_fd;
+#[path = "../libft/ft_putchar_fd.rs"] mod ft_putchar_fd;
 use ft_putchar_fd::ft_putchar_fd;
-use std::fs::File;
-use std::fs::OpenOptions;
+use std::fs;
 use std::io::{self, Read};
 
 // In the line let mut buffer = [0; 1];, [0; 1] is an array initialization syntax in Rust.
@@ -17,7 +15,7 @@ use std::io::{self, Read};
 
 // After this line executes, the `buffer` array will contain the bytes read from the file, specifically, in this case, it will hold the first byte of the file content.
 fn use_ft_putchar_fd(file_name: &str, char_test: char) -> io::Result<char> {
-    let mut file: File = match OpenOptions::new().write(true).create(true).open(file_name) {
+    let mut file: fs::File = match fs::OpenOptions::new().write(true).create(true).open(file_name) {
         Ok(fd) => fd,
         Err(err) => {
             println!("Error openning file: {}", err);
@@ -26,7 +24,7 @@ fn use_ft_putchar_fd(file_name: &str, char_test: char) -> io::Result<char> {
     };
 
     ft_putchar_fd(char_test, &mut file);
-    let mut file: File = File::open(file_name)?;
+    let mut file: fs::File = fs::File::open(file_name)?;
     // Read the first character of the file
     let mut buffer: [u8; 1] = [0; 1];
     file.read_exact(&mut buffer)?;

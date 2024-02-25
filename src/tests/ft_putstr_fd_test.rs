@@ -1,12 +1,10 @@
-#[path = "../libft/ft_putstr_fd.rs"]
-mod ft_putstr_fd;
+#[path = "../libft/ft_putstr_fd.rs"] mod ft_putstr_fd;
 use ft_putstr_fd::ft_putstr_fd;
-use std::fs::File;
-use std::fs::OpenOptions;
+use std::fs;
 use std::io::{self, Read};
 
 fn use_ft_putstr_fd(file_name: &str, str_test: &str) -> io::Result<String> {
-    let mut file: File = match OpenOptions::new().write(true).create(true).open(file_name) {
+    let mut file: fs::File = match fs::OpenOptions::new().write(true).create(true).open(file_name) {
         Ok(fd) => fd,
         Err(err) => {
             println!("Error openning file: {}", err);
@@ -15,7 +13,7 @@ fn use_ft_putstr_fd(file_name: &str, str_test: &str) -> io::Result<String> {
     };
 
     ft_putstr_fd(str_test, &mut file);
-    let mut file: File = File::open(file_name)?;
+    let mut file = fs::File::open(file_name)?;
     // Read the first character of the file
     // let mut buffer: Vec<u8> = vec![0; str_test.len()];
     // file.read_exact(&mut buffer)?;
