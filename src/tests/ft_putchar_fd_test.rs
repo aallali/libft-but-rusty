@@ -28,7 +28,7 @@ fn use_ft_putchar_fd(file_name: &str, char_test: char) -> io::Result<char> {
     ft_putchar_fd(char_test, &mut file);
     let mut file: File = File::open(file_name)?;
     // Read the first character of the file
-    let mut buffer: [u8; 2] = [0; 2];
+    let mut buffer: [u8; 1] = [0; 1];
     file.read_exact(&mut buffer)?;
 
     // file.read_to_string(&mut contents)?;
