@@ -9,7 +9,7 @@ fn main() -> io::Result<()> {
     libft::ft_putstr("golden 3dida\n");
     libft::ft_putchar('-');
 
-    let mut file = match OpenOptions::new().write(true).open("output.txt") {
+    let mut file = match OpenOptions::new().write(true).create(true).open("output.txt") {
         Ok(fd) => fd,
         Err(err) => {
             eprintln!("Error openning file: {}", err);
