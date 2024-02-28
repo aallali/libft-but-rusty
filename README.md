@@ -26,8 +26,8 @@ I tried to follow the same limitations that the 'libft' subject gives us, such a
 - [ ] `ft_itoa`
 - [x] [`ft_putchar`](./src/libft/ft_putchar.rs)
 - [x] [`ft_putstr`](./src/libft/ft_putstr.rs)
-- [x] `ft_putendl`
-- [x] `ft_putnbr`
+- [x] [`ft_putendl`](./src/libft/ft_putendl.rs)
+- [x] [`ft_putnbr`](./src/libft/ft_putnbr.rs)
 - [x] [`ft_putchar_fd`](./src/libft/ft_putchar_fd.rs) [🧪](./src/tests/ft_putchar_fd_test.rs)
 - [x] [`ft_putstr_fd`](./src/libft/ft_putstr_fd.rs) [🧪](./src/tests/ft_putstr_fd_test.rs)
 - [ ] ⏳`ft_putendl_fd`
