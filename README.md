@@ -26,11 +26,11 @@ I tried to follow the same limitations that the 'libft' subject gives us, such a
 - [ ] `ft_itoa`
 - [x] [`ft_putchar`](./src/libft/ft_putchar.rs)
 - [x] [`ft_putstr`](./src/libft/ft_putstr.rs)
-- [ ] `ft_putendl`
-- [ ] `ft_putnbr`
+- [x] `ft_putendl`
+- [x] `ft_putnbr`
 - [x] [`ft_putchar_fd`](./src/libft/ft_putchar_fd.rs) [🧪](./src/tests/ft_putchar_fd_test.rs)
 - [x] [`ft_putstr_fd`](./src/libft/ft_putstr_fd.rs) [🧪](./src/tests/ft_putstr_fd_test.rs)
-- [ ] `ft_putendl_fd`
+- [ ] ⏳`ft_putendl_fd`
 - [ ] `ft_putnbr_fd`
 ### part 2:
 - [ ] `ft_memset`
