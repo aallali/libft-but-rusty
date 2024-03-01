@@ -33,7 +33,7 @@ pub fn ft_putnbr(nb: i128) {
     ft_putchar(((unb % 10) as u8 + b'0') as char);
 
 
-    // in paralel worl where developers are less autistic you can use:
+    // in parallel world where developers are less autistic you can use:
     // pub fn ft_putnbr(n: i32) -> io::Result<()> {
     //     let s: String = n.to_string();
     //     ft_putstr(&(s.to_owned()))
