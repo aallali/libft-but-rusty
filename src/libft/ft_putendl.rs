@@ -1,6 +1,5 @@
 use std::str;
 use super::ft_putstr;
-use super::ft_putchar;
 
 /// Print string given as argument followed by new line
 ///
@@ -14,6 +13,5 @@ use super::ft_putchar;
 /// ft_putendl("This sentence will be followed by a new line.")
 /// ```
 pub fn ft_putendl(string: &str) {
-    ft_putstr(string);
-    ft_putchar('\n');
+    ft_putstr(&(string.to_owned() + "\n"));
 }
