@@ -83,7 +83,12 @@ mod tests {
     fn test_putnbr_fd_random() {
         ft_putnbr_fd_mock(42, "42",33);
         ft_putnbr_fd_mock(1337, "1337", 33);
-
-        // ft_putnbr_fd_mock(01, "1");
+        ft_putnbr_fd_mock(01, "1", 33);
+        ft_putnbr_fd_mock(00000, "0", 33);
+        ft_putnbr_fd_mock(000001, "1", 33);
+        ft_putnbr_fd_mock(-000001, "-1", 33);
+        ft_putnbr_fd_mock(-1000001, "-1000001", 33);
+        ft_putnbr_fd_mock(-0, "0", 33);
+        ft_putnbr_fd_mock(-0000, "0", 33);
     }
 }
