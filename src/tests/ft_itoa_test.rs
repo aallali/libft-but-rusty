@@ -15,7 +15,6 @@ fn test_itoa_normal() {
     assert_eq!(ft_itoa(-01), "-1");
     assert_eq!(ft_itoa(-00000000133370), "-133370");
     assert_eq!(ft_itoa(-0000000013337), "-13337");
-
 }
 
 #[test]

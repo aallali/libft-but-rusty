@@ -10,7 +10,7 @@ use super::ft_putstr;
 /// # Examples
 ///
 /// ```
-/// ft_putendl("This sentence will be followed by a new line.")
+/// ft_putendl("This sentence will be printed and followed by a new line.")
 /// ```
 pub fn ft_putendl(string: &str) {
     ft_putstr(&(string.to_owned() + "\n"));

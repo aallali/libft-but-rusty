@@ -60,21 +60,15 @@ fn main() -> io::Result<()> {
     libft::ft_putendl(libft::ft_itoa(01));
     libft::ft_putendl(libft::ft_itoa(001234));
     libft::ft_putendl(libft::ft_itoa(-0));
-
-
     libft::ft_putendl(libft::ft_itoa(i128::from(i64_MIN)));
-
-
 
     libft::ft_putendl_fd("Khurchuch", &mut file);
     libft::ft_putendl_fd("Khurchuch", &mut file);
     libft::ft_putnbr_fd(i128_MAX, &mut file);
     libft::ft_putendl_fd("", &mut file);
 
-
     libft::ft_putnbr_fd(i128_MIN, &mut file);
 
     
-
     Ok(())
 }
