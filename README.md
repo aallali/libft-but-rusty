@@ -31,7 +31,7 @@ I tried to follow the same limitations that the 'libft' subject gives us, such a
 - [x] [`ft_putchar_fd`](./src/libft/ft_putchar_fd.rs) [🧪](./src/tests/ft_putchar_fd_test.rs)
 - [x] [`ft_putstr_fd`](./src/libft/ft_putstr_fd.rs) [🧪](./src/tests/ft_putstr_fd_test.rs)
 - [x] [`ft_putendl_fd`](./src/libft/ft_putendl_fd.rs)
-- [x] [`ft_putnbr_fd`](./src/libft/ft_putnbr_fd.rs)
+- [x] [`ft_putnbr_fd`](./src/libft/ft_putnbr_fd.rs) [🧪](./src/tests/ft_putnbr_fd_test.rs)
 ### part 2:
 - [ ] `ft_memset`
 - [ ] `ft_bzero`
