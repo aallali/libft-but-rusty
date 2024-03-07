@@ -30,7 +30,7 @@ I tried to follow the same limitations that the 'libft' subject gives us, such a
 
 ### part 2 (converters):
 - [x] [`ft_itoa`](./src/libft/ft_itoa.rs) [🧪](./src/tests/ft_itoa_test.rs)
-- [ ] ⏳ [`ft_atoi`]
+- [ ] ⏳ [`ft_atoi`](./src/libft/ft_atoi.rs)
 - [ ] `ft_toupper`
 - [ ] `ft_tolower`
 
